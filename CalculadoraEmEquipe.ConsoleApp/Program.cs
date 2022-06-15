@@ -52,6 +52,8 @@ namespace CalculadoraEmEquipe.ConsoleApp
                     resultado = primeiroNumero * segundoNumero;
                     break;
                 case 4:
+
+                    resultado = primeiroNumero / segundoNumero;
                     break;
                 case 5:
                     break;

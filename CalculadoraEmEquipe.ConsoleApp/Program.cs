@@ -66,6 +66,7 @@ namespace CalculadoraEmEquipe.ConsoleApp
                         salvarOperacao = primeiroNumeroString + " * " + segundoNumero + " = " + resultado.ToString();
                         break;
                     case 4:
+                        resultado = primeiroNumero / segundoNumero;
                         salvarOperacao = primeiroNumeroString + " / " + segundoNumero + " = " + resultado.ToString();
                         break;
                     case 5:

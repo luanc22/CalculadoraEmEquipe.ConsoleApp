@@ -15,7 +15,7 @@ namespace CalculadoraEmEquipe.ConsoleApp
             double primeiroNumero;
             double segundoNumero;
             int operacaoEscolhida;
-            double resultado;
+            double resultado = 0;
 
             /*
              * 1 - adicao
@@ -44,6 +44,7 @@ namespace CalculadoraEmEquipe.ConsoleApp
             switch (operacaoEscolhida)
             {
                 case 1:
+                    resultado = primeiroNumero + segundoNumero;
                     break;
                 case 2:
                     break;
